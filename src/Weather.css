@@ -1,0 +1,51 @@
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('./supercell1.gif') no-repeat center center fixed; 
+    background-size: cover;
+  }
+  
+  .input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: rgba(255,255,255,0.5);
+  }
+  
+  .button {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .button:hover {
+    background-color: black;
+  }
+  
+  .weather-display {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.5);
+  }
+  
+  .saved-weather {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.5);
+  }
+  
